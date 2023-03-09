@@ -1,0 +1,147 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.nav-item a:link {
+    color: black;
+}
+
+.nav-item a:active {
+    color: black;
+}
+
+.nav-item a:visited {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* ----------- Search Bar ------------ */
+
+.centered-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.centered-input {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 30px auto;
+    width: 638px;
+    max-width: 584px;
+}
+
+.btn-search {
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-search:hover {
+    border-color: black;
+}
+
+/* --------------Advanced Search--------------- */
+
+.h1-advanced {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.h2-advanced {
+    font-size: 16px;
+    color: #333333;
+    margin: 50px 35px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin: auto 35px;
+    justify-content: center;
+}
+
+.left p {
+    height: 30px;
+    margin: 15px;
+    vertical-align: middle;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin: auto 35px;
+    justify-content: center;
+}
+
+.right input {
+    margin: 15px;
+    height: 30px;
+    width: 585px;
+    padding: 1px 8px;
+    border: 1px solid gainsboro;
+}
+
+/*--------------- Advanced Search Button -----------------*/
+
+.btn-adv-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 920px;
+}
+
+.btn-advanced {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.btn-advanced:hover {
+    background: #aecbfa;
+}
